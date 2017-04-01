@@ -7,7 +7,7 @@ Thank you iamyellow!
 
 Using Google Play Service instead of the fork original gcm.jar 
 
-It supports the Appcelerator Platform (5.1.1.SDK) and Titanium SDK 4.0.0.
+It supports the Titanium SDK 6.0.x
 
 It has a very simple API -almost identical to iOS!- yet flexible and powerful, as it executes Javascript whenever a notification is received, no matter if the app is in foreground or background. More info at:
 [Titanium の Android で GCM(Push通知) Google Play Service版 - Qiita 変更する](http://qiita.com/hntn/items/a83072e441ccf4fc715c)
