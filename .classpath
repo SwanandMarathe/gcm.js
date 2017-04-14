@@ -8,7 +8,8 @@
 	<classpathentry kind="lib" path="/Users/ingrowth/Library/Application Support/Titanium/mobilesdk/osx/6.0.0.GA/android/titanium.jar"/>
 	<classpathentry kind="lib" path="/Users/ingrowth/Library/Application Support/Titanium/mobilesdk/osx/6.0.0.GA/android/kroll-common.jar"/>
 	<classpathentry kind="lib" path="/Users/ingrowth/Library/Application Support/Titanium/mobilesdk/osx/6.0.0.GA/android/kroll-apt.jar"/>
-	<classpathentry kind="lib" path="android/lib/google-play-services.jar"/>
+	<!-- <classpathentry kind="lib" path="android/lib/google-play-services.jar"/> -->
+	<classpathentry kind="lib" path="android/lib/google-play-services-STRIPPED.jar"/>
 	<classpathentry kind="lib" path="/Users/ingrowth/Library/Application Support/Titanium/mobilesdk/osx/6.0.0.GA/android/modules/titanium-android.jar"/>
 	<classpathentry kind="lib" path="/Users/ingrowth/Library/Application Support/Titanium/mobilesdk/osx/6.0.0.GA/android/android-support-v4.jar"/>
 	<classpathentry kind="src" path=".apt_generated">
