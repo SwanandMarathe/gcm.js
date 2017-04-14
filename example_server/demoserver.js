@@ -3,7 +3,7 @@
 (function(messageId, callback) {
 	var _GCM = require('gcm').GCM;
 
-	var GCM = new _GCM('SET YOU API KEY HERE');
+	var GCM = new _GCM('AIzaSyDkQwSogny5uxA3TG0fg1tQ2rmw70ATrD0');
 
 	var registration_id = 'SET YOUR DEVICES REGISTRATIONID HERE';
 

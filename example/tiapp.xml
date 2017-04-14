@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
-  <id>com.tdtsh.app.gcmtest</id>
+  <id>com.gimdongwoo.app.gcmtest</id>
   <name>GcmTest</name>
   <version>1.0</version>
   <publisher>not specified</publisher>
@@ -13,7 +13,7 @@
   <analytics>true</analytics>
   <guid>a32b219d-41d2-4778-9444-1da8c0d3ad78</guid>
   <property name="ti.ui.defaultunit" type="string">dp</property>
-  <property name="GCM_sender_id" type="string">591360219986</property>
+  <property name="GCM_sender_id" type="string">1001731163025</property>
   <property name="ti.android.debug" type="bool">true</property>
   <ios>
     <plist>
@@ -40,11 +40,11 @@
       </dict>
     </plist>
   </ios>
-  <android 
+  <android
     xmlns:android="http://schemas.android.com/apk/res/android">
-    <manifest android:versionCode="1" android:versionName="1.0" 
+    <manifest android:versionCode="1" android:versionName="1.0"
       xmlns:android="http://schemas.android.com/apk/res/android">
-      <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="21"/>
+      <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="23" />
       <application android:debuggable="true" android:theme="@style/Theme.AppCompat">
         <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:name=".GcmtestActivity" android:theme="@style/Theme.Titanium">
           <intent-filter>
@@ -83,9 +83,8 @@
     <target device="iphone">false</target>
     <target device="mobileweb">false</target>
   </deployment-targets>
-  <sdk-version>3.5.1.GA</sdk-version>
+  <sdk-version>6.0.3.GA</sdk-version>
   <plugins>
     <plugin version="1.0">ti.alloy</plugin>
   </plugins>
-  <property name="appc-app-id" type="string">1522034d4f40fc6253030ad7</property>
 </ti:app>
