@@ -3,9 +3,9 @@
 (function(messageId, callback) {
 	var _GCM = require('gcm').GCM;
 
-	var GCM = new _GCM('AIzaSyDkQwSogny5uxA3TG0fg1tQ2rmw70ATrD0');
+	var GCM = new _GCM('SET YOU API KEY HERE');
 
-	var registration_id = 'APA91bGo2LIzN-8KY6BWfgg6vGyK19LKKp5ih0Wyzsoj2dvt44BPExfQXUrGXJu5kbCbV8pH7vq-Iyfr14T8ZhF43cMLxQ-k1zKlfX7_dcpwbkd2D1EZfCej3Y4BoFg-AgH0Nu73aklA';
+	var registration_id = 'SET YOUR DEVICES REGISTRATIONID HERE';
 
 	var message = {
 		collapse_key: messageId,
