@@ -10,7 +10,7 @@
   <icon>appicon.png</icon>
   <fullscreen>false</fullscreen>
   <navbar-hidden>false</navbar-hidden>
-  <analytics>true</analytics>
+  <analytics>false</analytics>
   <guid>a32b219d-41d2-4778-9444-1da8c0d3ad78</guid>
   <property name="ti.ui.defaultunit" type="string">dp</property>
   <property name="GCM_sender_id" type="string">1001731163025</property>
