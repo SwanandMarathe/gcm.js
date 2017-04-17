@@ -5,7 +5,7 @@ Thank you iamyellow!
 
 **gcm.js** is an open source module for Titanium Android SDK that lets developers receive GCM push notifications in their Android apps.
 
-Using Google Play Service instead of the fork original gcm.jar 
+Using Google Play Service instead of the fork original gcm.jar
 
 It supports the Titanium SDK 6.0.x
 
@@ -69,6 +69,8 @@ node demoserver.js
 - unregister is not implemented
 
 - It does not receive a notification if the application is not started
+
+- Making analytics false in tiapp.xml, https://jira.appcelerator.org/browse/TIMOB-24427
 
 
 ## Forking the module
